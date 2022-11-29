@@ -1,0 +1,26 @@
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+c=int(input('enter c:'))
+d=int(input('enter d:'))
+if a>b:
+ if a>c:
+  if a>d:
+   print('a is big')
+if b>c:
+ if b>d:
+  if b>a:
+   print('b is big')
+if c>d:
+ if c>a:
+  if c>b:
+   print('c is big')
+if d>a:
+ if d>b:
+  if d>c:
+   print('d is big')
+output:
+enter a:10
+enter b:20
+enter c:30
+enter d:40
+d is big
