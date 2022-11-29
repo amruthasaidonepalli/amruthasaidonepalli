@@ -1,0 +1,30 @@
+empolyeeid=int(input('enter empolyeeid'))
+empolyeename=input('enter empolyeename')
+empolyeedesignation=input('enter empolyeedesignation')
+basicsalary=int(input('enter basic salary'))
+da=int(input('enter da'))
+ta=int(input('enter ta'))
+hra=int(input('enter hra'))
+netsalary=basicsalary+da+ta+hra
+print('netsalary',netsalary)
+tax=netsalary*10/100
+print('tax',tax)
+if netsalary>100000:
+    tax=netsalary*10/100
+netsalary>50000
+tax=7
+netsalary>40000
+tax=4 
+netsalary>20000
+tax=2
+netsalary<20000
+tax=0
+OUTPUT:enter empolyeeid1234
+enter empolyeenameABCD
+enter empolyeedesignationWORKER
+enter basic salary20000
+enter da1000
+enter ta5000
+enter hra8000
+netsalary 34000
+tax 3400.0
